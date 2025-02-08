@@ -22,7 +22,7 @@
 - JavaFX: Biblioteca para construção da interface gráfica do usuário.
 - FXML: Linguagem de marcação usada para definir a interface do usuário (UI) no JavaFX.
 ##   🚀 Como Executar
-1) Clone este repositório
-2) Abra o projeto no seu IDE preferida (como IntelliJ IDEA, Eclipse, ou NetBeans).
-3) Compile e execute o projeto (É necessário ter o JavaFX).
+- Clone este repositório
+- Abra o projeto no seu IDE preferida (como IntelliJ IDEA, Eclipse, ou NetBeans).
+- Compile e execute o projeto (É necessário ter o JavaFX).
    

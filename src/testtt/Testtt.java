@@ -70,20 +70,20 @@ public class Testtt {
 
         JLabel songTitleLabel = new JLabel("Song Title", SwingConstants.CENTER);
         songTitleLabel.setFont(new Font("Arial", Font.BOLD, 28));
-        songTitleLabel.setBounds(125, 200, 200, 30);
+        songTitleLabel.setBounds(135, 200, 200, 50);
         frame.add(songTitleLabel);
 
         JProgressBar progressBar1 = new JProgressBar();
-        progressBar1.setBounds(125, 280, 240, 10);
+        progressBar1.setBounds(105, 280, 240, 10);
         progressBar1.setValue(0);
         frame.add(progressBar1);
 
         JLabel JLabelBegin = new JLabel("0.00");
-        JLabelBegin.setBounds(90, 280, 50,10 );
+        JLabelBegin.setBounds(75, 280, 50,10 );
         frame.add(JLabelBegin);
 
         JLabel JLabelEnd = new JLabel("0.00");
-        JLabelEnd.setBounds(375, 280, 50,10 );
+        JLabelEnd.setBounds(355, 280, 50,10 );
         frame.add(JLabelEnd);
 
         JButton prevButton = new JButton("↩");
@@ -124,12 +124,16 @@ public class Testtt {
         frame.add(proximaMusic);
 
         JButton paraMusica = new JButton("⏹");
-        paraMusica.setBounds(415, 260, 55, 50);
+        paraMusica.setBounds(400, 260, 55, 50);
         frame.add(paraMusica);
 
         JButton addMusic = new JButton("☰");
         addMusic.setBounds(5, 25, 60, 40);
         frame.add(addMusic);
+
+        JLabel load = new JLabel("Carregar música");
+        load.setBounds(5, 60, 100, 40);
+        frame.add(load);
 
         JLabel listButton = new JLabel("Playlist", SwingConstants.CENTER);
         listButton.setBounds(200, 400, 80, 30);
@@ -139,8 +143,8 @@ public class Testtt {
 
         JTextField textField1 = new JTextField(SwingConstants.CENTER);
         textField1.setBounds(110, 450, 240, 30);
-        textField1.setVisible(false);
         frame.add(textField1);
+        textField1.setVisible(false);
 
         JButton novaPlaylistButton = new JButton();
         novaPlaylistButton.setText("Nova Playlist");
@@ -154,7 +158,7 @@ public class Testtt {
         frame.add(save);
 
         JButton carregarPlaylistButton = new JButton("Carregar Playlist");
-        carregarPlaylistButton.setBounds(60, 500, 150, 30);
+        carregarPlaylistButton.setBounds(165, 500, 150, 30);
         frame.add(carregarPlaylistButton);
 
         JButton reproduzirPlaylistButton = new JButton("Adicionar música");
